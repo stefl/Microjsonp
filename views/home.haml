@@ -1,0 +1,26 @@
+!!!
+%html{:xmlns=>"http://www.w3.org/1999/xhtml"}
+  %head
+    %link{:rel=>"shortcut icon", :href=>"/favicon.ico"}
+    %meta{"http-equiv"=>"Content-Type", :content=>"text/html;charset=utf-8"}
+
+    %title= "Get all the Microformats at any URL as JSONP"
+    
+    = stylesheet_link_tag 'tripoli.base.css'
+    = stylesheet_link_tag 'tripoli.visual.css'
+    
+  %body
+    %h1
+      Get all the Microformats at any URL as JSONP
+      
+    %p
+      A handy web service:
+    %p
+      Send a request of this format:
+    %pre
+      GET "http://microjsonp.heroku.com/parse?url=http://microformats.org/"
+      
+    %p
+      You will receive the following as JSONP:
+    %pre
+      
