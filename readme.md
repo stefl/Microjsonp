@@ -6,6 +6,28 @@ Send a GET request of this format to this little web service:
 
 And you will receive all microformats contained at that url, parsed and converted to jsonp.
 
+Security
+--------
+
+Be aware that there are security risks in using JSONP, and you should read up on them to make sure your approach is valid.
+
+Supported microformats
+----------------------
+
+Microformat parsing is done using the Mofo gem, so we can support the following:
+
+* adr
+* geo
+* hcalendar
+* hcard
+* hentry
+* hfeed
+* hresume
+* hreview
+* rel
+* xfn
+* xoxo
+
 To install and use for your own purposes
 ----------------------------------------
 
