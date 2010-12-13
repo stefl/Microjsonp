@@ -39,4 +39,4 @@ To install and use for your own purposes
 Licence
 -------  
   
-Released under the CC0 licence.
+[Released under the CC0 licence](http://creativecommons.org/publicdomain/zero/1.0/)
