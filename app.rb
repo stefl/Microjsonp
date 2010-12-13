@@ -4,6 +4,8 @@ require 'mofo'
 require "sinatra/jsonp"
 require "json"
 
+set :public, File.dirname(__FILE__) + '/public'
+
 class Microformat
   def as_json(opts={})
     self.to_json(opts)
