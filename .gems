@@ -1,3 +1,5 @@
 mofo
 sinatra
 haml
+sinatra-jsonp
+json
