@@ -12,7 +12,6 @@ class Microformat
   end
   
   def to_json(opts={})
-    puts "To json"
     r = {}
     if self.respond_to?(:properties)
       self.properties.each do |p|
